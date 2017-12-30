@@ -5,9 +5,9 @@
 ## 遇到的主要问题：
 JLbel显示图片不刷新的问题，网上相关的资料比较少，看到比较多的是通过开一个线程来进行实时刷新，偶然看到了一个简单的解决办法
 
-'''
+```
 jlabel.setIcon(new ImageIcon(ImageIO.read(new File("image.png"))));
-'''
+```
 
 ## 用户运行图：
 
